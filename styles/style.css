@@ -216,7 +216,7 @@ li {
   margin-bottom: 10px;
 }
 
-.info {
+.contact__info {
   display: flex;
   flex-direction: column;
   gap: 28px;
@@ -265,7 +265,7 @@ li {
   justify-content: center;
 }
 
-.footer-link {
+.footer__link {
   margin: 0px;
   font-family: Poppins;
   font-size: 14px;
