@@ -261,7 +261,7 @@ li {
   background: #f3f3f3;
 }
 
-.container {
+.footer__container {
   justify-content: center;
 }
 
@@ -282,13 +282,13 @@ li {
   margin: 0px 180px 0px 225px;
 }
 
-.footer_button {
+.button {
   display: flex;
   justify-content: center;
   margin-top: 17px;
 }
 
-.footer__button-transparent {
+.button-transparent {
   width: 96px;
   height: 34px;
   border: 2px solid #db7093;
