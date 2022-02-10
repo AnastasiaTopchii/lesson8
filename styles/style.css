@@ -125,8 +125,8 @@ li {
   min-height: 300px;
 }
 
-.text,
-.text-second {
+.product__text,
+.product-reverced__text-second {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -137,7 +137,8 @@ li {
   height: 300px;
   border-radius: 10px;
 }
-.title {
+.product__title,
+.product-reverced__title {
   margin: 12px 0px 0px;
   font-family: Poppins;
   font-style: normal;
@@ -146,7 +147,8 @@ li {
   line-height: 32px;
   color: #4a4a4a;
 }
-.info {
+.product__info,
+.product-reverced__info {
   margin: 0px;
   font-family: Poppins;
   font-style: normal;
@@ -155,7 +157,7 @@ li {
   line-height: 32px;
   color: #717171;
 }
-.btn {
+.nav__btn {
   width: 96px;
   height: 34px;
   margin-right: 14px;
@@ -169,7 +171,7 @@ li {
   font-size: 16px;
 }
 
-.link {
+.nav__link {
   margin: 0px;
   font-size: 16px;
   line-height: 32px;
