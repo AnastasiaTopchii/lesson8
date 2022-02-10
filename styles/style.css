@@ -235,7 +235,7 @@ li {
 }
 
 .info__informbox::placeholder,
-.info__informbox-message::placeholder {
+.info__informbox_message::placeholder {
   padding-left: 12px;
   font-size: 16px;
   line-height: 34px;
