@@ -220,7 +220,7 @@ li {
 }
 
 .info__informbox,
-.info__informbox-message {
+.info__informbox_message {
   min-height: 34px;
   min-width: 400px;
   border-radius: 8px;
@@ -228,7 +228,7 @@ li {
   background-color: #f3f3f3;
 }
 
-.info__informbox-message {
+.info__informbox_message {
   padding-top: 1px;
   padding-bottom: 70px;
   min-height: 113px;
