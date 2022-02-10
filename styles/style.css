@@ -58,7 +58,7 @@ li {
   font-weight: bold;
 }
 
-.logo {
+.header__logo {
   margin-left: auto;
 }
 
@@ -278,13 +278,13 @@ li {
   margin: 0px 175px 0px 225px;
 }
 
-.footer__button {
+.footer-button {
   display: flex;
   justify-content: center;
   margin-top: 17px;
 }
 
-.button-transparent {
+.btn-cart {
   width: 96px;
   height: 34px;
   border: 2px solid #db7093;
