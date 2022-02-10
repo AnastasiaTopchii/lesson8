@@ -279,10 +279,10 @@ li {
 }
 
 .footer__logo {
-  margin: 0px 180px 0px 225px;
+  margin: 0px 175px 0px 225px;
 }
 
-.button {
+.footer__button {
   display: flex;
   justify-content: center;
   margin-top: 17px;
