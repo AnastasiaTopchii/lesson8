@@ -15,27 +15,121 @@
 
 <body>
     <header class="header">
-        <div class="header header__container">
-            <nav class="nav">
-                <li><a class="nav__link" href="">Home</a></li>
-                <li><a class="nav__link" href="">About</a></li>
-                <li><a class="nav__link" href="">Contact</a></li>
-                <li><a class="nav__link" href="">Products</a></li>
+        <div class="container header__container">
+            <nav class="menu">
+                <li><a class="menu__link menu__link-active" href="">Home</a></li>
+                <li><a class="menu__link" href="">About</a></li>
+                <li><a class="menu__link" href="">Contact</a></li>
+                <li><a class="menu__link" href="">Products</a></li>
             </nav>
-            <div class="header__logo">
-                <img class="header__logo_img" src="img/Logo (1).png" alt="logo">
+            <div class="logo">
+                <img class="logo__img" src="img/Logo (1).png" alt="logo">
             </div>
-            <input class="header__search-box" type="text" placeholder="search...">
-            <button class="header__btn">buy 99$</button>
+            <input class="search-box" type="text" placeholder="search...">
+            <button class="btn">buy 99$</button>
         </div>
     </header>
 
-    <main>
-        <div class="container-main">
-            <h3 class="container-main__subtitle">Contact us</h3>
-            <input class="container-main__inform-box" type="text" placeholder="name">
+    <main class="main">
+        <div class="container main__container">
+            <h2 class="subtitle">Some Product Site</h2>
+            <div class="products-box">
+                <div class="product">
+                    <img class="product__image" src="img/Rectangle 1.png" alt="">
+                    <div class="text product__text">
+                        <h3 class=" title product__title">Calvin Klein Obsession</h3>
+                        <p class=" info product__info">
+                            It is a long established fact that a reader will be distracted by the readable
+                            content
+                            of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                            a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here,
+                            content
+                            here', making it look like readable English
+                        </p>
+                        <div class="product-nav">
+                            <button class="product-btn">buy 25$</button>
+                            <a class="product-link" href="">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-reverced">
+                    <img class="product-reverced__image" src="img/Rectangle 1 (1).png" alt="">
+                    <div class="text-second product-reverced__text-second">
+                        <h3 class="title product-reverced__title">Lorem Ipsum is simply dummy text</h3>
+                        <p class="info product-reverced__info">
+                            It is a long established fact that a reader will be distracted by the readable
+                            content
+                            of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                            a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here,
+                            content
+                            here', making it look like readable English
+                        </p>
+                        <div class="product-nav product-reverced__product-nav">
+                            <button class="product-nav__btn">buy 32$</button>
+                            <a class="product-nav__link" href="">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <img class="image" src="img/Rectangle 1 (2).png" alt="">
+                    <div class="text">
+                        <h3 class="product-title">It has survived not only five centuries</h3>
+                        <p class="product-info">
+                            IIt is a long established fact that a reader will be distracted by the readable
+                            content
+                            of a page when looking at its layout. The point of using Lorem Ipsum is that it has
+                            a
+                            more-or-less normal distribution of letters, as opposed to using 'Content here,
+                            content
+                            here', making it look like readable English
+                        </p>
+                        <div class="product-nav">
+                            <button class="product-btn">buy 48$</button>
+                            <a class="product-link" href="">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-field">View more products</button>
+
+                <div class="contact">
+                    <h3 class="contact__subtitle">Contact us</h3>
+                    <div class="info">
+                        <input class="info__informbox" type="text" placeholder="name">
+                        <input class="info__informbox" type="text" placeholder="surname">
+                        <input class="info__informbox" type="text" placeholder="email">
+                        <input class="info__informbox-message" type="text" placeholder="message">
+                    </div>
+                </div>
+
+                <button class="btn-field">Send message</button>
+            </div>
+        </div>
+
+
         </div>
     </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <a class="footer-link" href="">@Copyright 2016-2021 Some Product Site</a>
+            <div class="footer__logo">
+                <img class="footer__logo_img" src="img/Logo (2).png" alt="logo">
+            </div>
+            <nav class="footer-menu">
+                <li><a class="footer-menu__link footer-menu__link-active" href="">Home</a></li>
+                <li><a class="footer-menu__link" href="">About</a></li>
+                <li><a class="footer-menu__link" href="">Contact</a></li>
+                <li><a class="footer-menu__link" href="">Products</a></li>
+            </nav>
+        </div>
+        <div class="footer_button">
+            <button class="footer__button-transparent">To Cart</button>
+        </div>
+    </footer>
 </body>
 
 </html>
